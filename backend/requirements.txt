@@ -1,7 +1,7 @@
 aiohttp==3.8.3
 alembic==1.8.1
 asgiref==3.6.0
-Celery==5.2.0
+Celery==5.2.2
 cryptography==39.0.0
 fastapi==0.88.0
 fastapi-limiter==0.1.5
@@ -22,3 +22,5 @@ sqlmodel==0.0.8
 tqdm>=4.64.1
 uuid7==0.1.0
 uvicorn==0.20.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+starlette>=0.27.0 # not directly required, pinned by Snyk to avoid a vulnerability
