@@ -12,3 +12,4 @@ sentencepiece
 sseclient-py
 git+https://github.com/huggingface/transformers@main#egg=transformers
 websocket-client
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
