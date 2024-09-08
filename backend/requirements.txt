@@ -19,6 +19,7 @@ requests==2.31.0
 scipy==1.8.1
 SQLAlchemy==1.4.41
 sqlmodel==0.0.8
-tqdm>=4.64.1
+tqdm>=4.66.3
 uuid7==0.1.0
 uvicorn==0.20.0
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
